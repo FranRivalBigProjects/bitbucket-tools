@@ -1,0 +1,1 @@
+const res=document.getElementById('res');function run(){let c=(conflicts.value.match(/<<<<|>>>>/g)||[]).length;res.innerText=`Conflicts: ${c}`;}
